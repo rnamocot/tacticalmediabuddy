@@ -1,13 +1,23 @@
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans); */
+@import url(https://fonts.googleapis.com/css?family=Gotham);
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Gotham',sans-serif;
+  line-height: 1.6em;
+  color: #002e48;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+ --blue: #122c4b;
+ --lightgreen:#a5e9e0;
+ --orange: #F77F1D;
+}
+a{
+text-decoration: none;
+}
+p{
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: normal;
 }

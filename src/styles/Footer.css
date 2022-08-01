@@ -1,0 +1,13 @@
+.footer-sec{
+    padding: 50px 0px;
+}
+
+.credit-footer{
+    text-align: center;
+    background-color: var(--blue);
+    padding: 20px 0px;
+    color: #ffffff;
+}
+.footer-sec li{
+    list-style: none;
+}

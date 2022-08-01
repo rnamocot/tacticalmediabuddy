@@ -1,0 +1,245 @@
+.banner {
+    /* background-color: var(--blue); */
+    background: url("/public/images/banner3.jpg");
+    padding: 150px 0px;
+    background-size: cover;
+}
+
+.banner-text {
+    color: #fff;
+}
+
+.banner-text h1,
+.banner-text h2,
+.banner-text p {
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    margin-top: 5rem;
+}
+
+.banner .cta-btn-click {
+    background-color: #F77F1D;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    /* border: 3px solid hsl(11deg 18% 95%); */
+}
+
+
+.cta-btn-click {
+    background-color: #F77F1D;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+}
+.cta-btn-click:hover {
+    color: #06A9A0;
+ 
+}
+
+
+.banner-text h2 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: #f3efef;
+}
+
+.banner-text h1 {
+    font-size: 45px;
+    line-height: 72px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.banner-text p {
+    font-size: 18px;
+    font-weight: 500;
+  
+}
+
+/* services */
+.services{
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading-services{
+    text-align: center !important;
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--blue);
+    
+}
+.heading-sub{
+    margin-bottom: 80px;
+    text-align: center !important;
+}
+.service-1{
+    padding: 50px;
+text-align: center;
+background-color: #9CAAB1;
+}
+.service-2{
+    padding: 50px;
+text-align: center;
+background-color: #114285;
+}
+.service-3{
+    padding: 50px;
+text-align: center;
+background-color: #54AB6C;
+}
+.service-tile-heading{
+    color:#ffffff !important;
+}
+.services-icon{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.s-icon{
+    font-size: 50px;
+    color: #ffffff;
+}
+.services h3{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 1rem !important;
+}
+.services p{
+line-height: 1.5;
+}
+
+@media only screen and (max-width:767px){
+    .services {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }  
+}
+
+/* #services 2 */
+.services-list{
+    padding: 50px 0px;
+}
+
+.services-list .heading-services{
+    margin-bottom: 50px;
+}
+.ppc-service {
+padding: 50px;
+}
+.ppc-img{
+    padding: 50px 10px 10px 10px ;
+    }
+.ppc-service h2{
+    font-size: 25px;
+    font-weight: 900;
+    color: var(--blue);
+    margin-bottom: 30px;
+}
+.ppc-service h5{
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--blue);
+    margin-bottom: 30px;
+}
+
+.webdev-sec{
+   padding: 50px 0px;
+   background-color: #f2f2f2;
+}
+.webdev-content{
+    padding: 50px;
+}
+.webdev-image{
+    padding: 50px 10px 10px 10px ;
+}
+.webdev-content h2{
+    font-size: 25px;
+    font-weight: 900;
+    color: var(--blue);
+    margin-bottom: 30px;
+}
+
+.whitelabel-sec{
+    padding: 50px 0px;
+}
+.whitelabel-text{
+    padding: 50px;
+}
+.whitelabel-text h2{
+    font-size: 25px;
+    font-weight: 900;
+    color: var(--blue);
+    margin-bottom: 30px;
+}
+.whitelabel-image{
+    padding: 50px 10px 10px 10px ;
+}
+
+
+/* testimonials */
+.testimonials-sec{
+    padding: 100px 0px;
+    background: var(--blue);; 
+}
+
+.testimonials-sec .heading-services{
+    margin-bottom: 100px;
+    color: #ffffff;
+}
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border: none;
+    height: 250px;
+    margin-top: 10px;
+    color: var(--blue);
+}
+
+.u-color {
+    color: var(--blue);
+}
+
+.user-image img {
+    border: 3px solid var(--blue);
+    padding: 2px
+}
+/* Contact */
+.contact-sec{
+    padding: 100px 0px;
+    background: url("/public/images/banner4.png");
+    background-size: cover;
+    background-position: top;
+}
+.contact-sec h2{
+    font-size: 25px;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-sec .btn-left {
+    margin-top: 5rem;
+    text-align: right;
+}
+.contact-sec .btn-right {
+    margin-top: 5rem;
+    text-align: left;
+}
+.contact-sec .contact-btn-click {
+    background-color: #F77F1D;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+}

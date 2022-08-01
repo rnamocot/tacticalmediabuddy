@@ -1,0 +1,33 @@
+.navbar-nav{
+    gap: 10px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: #122c4b;
+}
+.top-head{
+    background-color: #F2F0EE;
+    padding: 10px 0px;
+}
+.header-icon{
+font-size: 15px;
+}
+.cta-header a {
+    padding: 5px;
+  color: var(--blue);
+}
+.cta-header{
+    margin-left: 20px;
+}
+.cta-call-header{
+    float:right;
+    color: var(--blue);
+  }
+  .cta-call-header a{
+    color: var(--blue);
+  }
+  .cta-call-header .header-icon{
+    margin-right: 10px;
+  }
+ 
