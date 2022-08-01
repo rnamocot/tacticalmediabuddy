@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tacticalmediabuddy/static/css/main.9317d336.css",
+    "main.js": "/tacticalmediabuddy/static/js/main.0603741d.js",
+    "static/media/banner4.png": "/tacticalmediabuddy/static/media/banner4.292b3bca6a92452b504d.png",
+    "static/media/banner3.jpg": "/tacticalmediabuddy/static/media/banner3.dc4612048661b20e6ad1.jpg",
+    "index.html": "/tacticalmediabuddy/index.html",
+    "main.9317d336.css.map": "/tacticalmediabuddy/static/css/main.9317d336.css.map",
+    "main.0603741d.js.map": "/tacticalmediabuddy/static/js/main.0603741d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9317d336.css",
+    "static/js/main.0603741d.js"
+  ]
+}
